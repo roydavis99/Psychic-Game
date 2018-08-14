@@ -7,6 +7,7 @@ var guesses = [];
 var possible = "abcdefghijklmnopqrstuvwxyz";
 var answer = possible.charAt(Math.floor(Math.random() * possible.length));
 
+displayRefresh();
 
 
 function reset() {
